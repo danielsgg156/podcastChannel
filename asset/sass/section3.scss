@@ -1,0 +1,57 @@
+.container3{
+    justify-content: center;
+    margin: 30px 0px;
+    width:100%;
+    height: 1350px;
+    color:#060A24 ;
+    .container3-a{
+        background-color:blue;
+        clip-path:polygon(0 9%, 100% 0%, 100% 90%, 0 100%);
+        padding: 100px 0px 180px 0px;
+        .h2episodios{
+            font-size:36px;
+            margin:15px;
+        }
+        .podcast{
+            height: 232px;
+            width: 95%;
+            margin:2.5%;
+            border: none;
+        }
+    }
+}
+.container3-b{
+    .imgcelular{
+        width: 320px;
+        left: 50%;
+        margin-left: -160px;
+        position: absolute;
+        top: 1520px;
+        height:auto;
+    }
+}  
+@media(min-width:1024px){
+    .container3{
+    height: 940px;
+        .container3-a{
+            .h2episodios{
+                color: #FFFFFF;
+                margin:0px 7.7%;
+                font-size: 64px;
+            }
+            .podcast{
+                width: 40%;
+                margin: 30px 4.9%;
+                
+            }
+        }
+    .container3-b{
+        .imgcelular{
+            top:1150px;
+            left: 25%;
+            width: 400px;
+            margin-left: -200px;
+        }
+    }
+    }
+}  

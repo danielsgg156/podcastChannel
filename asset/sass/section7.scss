@@ -1,0 +1,41 @@
+.container7{
+    width: 100%;
+    height: 300px;
+    clip-path: polygon(0 11%, 100% 0%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        .container7h2{
+            height: 200px;
+            padding-top: 40px;
+            margin: auto;
+            font-family: 'IBM Plex Sans';
+            font-size: 36px;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 42px;    
+        }
+        .boton2{
+            margin:auto;
+            width: 288px;
+            height:48px;
+            padding: 15px;
+            background-color: #00F3BB;
+            text-decoration: none;
+            display:flex;
+            text-align: center;
+            justify-content: center;
+            }
+            .boton2:hover{
+                background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+                color: white;        
+            }           
+         }
+@media(min-width:1024px){
+    .container7{
+        clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        .container7h2{
+            padding: 100px;
+            font-size: 48px;
+        }
+    }
+}                

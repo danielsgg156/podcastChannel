@@ -1,0 +1,25 @@
+.container5{
+    margin-top:25px;
+
+    .h2invitados{
+        width: 90%;
+        margin:auto;
+        font-size: 36px;
+    }
+    .fotos{
+        width: 100%;
+    }
+}
+@media(min-width:1024px){
+    .container5{
+        margin-top: 208px;
+        .h2invitados{
+            margin:16px 15%;
+            font-size: 48px;
+        }
+        .fotos{
+            width:33%;
+            border: 0%;
+        }
+    }
+}

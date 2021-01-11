@@ -1,0 +1,30 @@
+.container6 {
+  width: 100%;
+  height: 850px; }
+  .container6 .h2temas {
+    margin: 25px 7.5%;
+    width: 85%;
+    font-size: 36px; }
+  .container6 .container {
+    display: flex;
+    flex-direction: column; }
+  .container6 .pcontainer6 {
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    padding: 20px;
+    font-family: 'IBM Plex Sans'; }
+
+@media (min-width: 1024px) {
+  .container6 {
+    margin: 36px;
+    height: 260px; }
+    .container6 .h2temas {
+      margin: 32px;
+      font-size: 48px; }
+    .container6 .container6a {
+      display: flex; }
+      .container6 .container6a .container {
+        width: 100%; } }
+
+/*# sourceMappingURL=section6.css.map */

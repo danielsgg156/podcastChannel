@@ -1,0 +1,33 @@
+.container4{
+    width: 100%;
+    margin-top:400px;
+    .h2dedondevenimos{
+        margin:7.5%;
+        width: 85%;
+        font-size: 36px;
+        
+    }
+    .parrafo2{
+        margin:  auto;
+        width: 90%;
+        font-size: 16px;
+        font-family: 'IBM Plex Mono';
+        
+    }
+}
+@media(min-width:1024px){
+    .container4{
+        margin-top:60px;
+        margin-bottom: 150px;
+        .h2dedondevenimos{
+            margin:15px 50%;
+            width: 300px;
+        
+        }
+        .parrafo2{
+        width: 450px;
+        margin-left :50%;
+        
+        }
+    }
+}

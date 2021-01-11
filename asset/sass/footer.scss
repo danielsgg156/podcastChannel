@@ -1,0 +1,50 @@
+.divfooter{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    .pfooter{
+        font-size: 14px;
+        text-align: center;
+        color: #060A24;
+        font-family: 'IBM Plex Mono';  
+    }
+    .divsocial-footer{
+        display: flex;
+        justify-content:space-around;
+        margin: 16px 30px; 
+            .icon-social{
+                font-size: 16px;
+                color: #060A24;
+                letter-spacing: 0;
+                
+        }
+    }
+}
+@media(min-width:1024px){
+    .divfooter{
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-around;
+    
+        .pfooter{
+            font-size: 23px;
+            margin:30px;
+        }
+        .divsocial-footer{
+            .icon-social{
+             margin: 0% 16px;
+             font-size: 22px;
+             overflow: hidden;
+             transition: 1s;
+             text-transform: uppercase;
+             padding: 15px 10px;
+             color: #21f3c6;   
+            }
+    }   .icon-social:hover{
+        color: #11d1df;
+        background: #1035dd;
+        box-shadow: 0 0 10px #09ddc1, 0 0 40px #0ef1f1, 0 0 80px #1809e9b6; 
+    }
+    }
+}
